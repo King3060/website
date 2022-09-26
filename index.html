@@ -219,12 +219,6 @@ function myFunction() {
         navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
     }
 }
-var viewMode = getCookie("view-mode");
-if(viewMode == "desktop"){
-  viewport.setAttribute('content', 'width=1024')
-} else if (viewMode == "mobile"){
-  viewport.setAttribute('content', 'width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no')
-}
 // Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
     var x = document.getElementById("navDemo");
